@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on おれこんどうめも</title>
+    <link>https://orekondo.com/tags/</link>
+    <description>Recent content in Tags on おれこんどうめも</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>© Copyright orekondo</copyright>
+    <lastBuildDate>Sun, 29 Mar 2020 21:47:46 +0900</lastBuildDate>
+    
+	<atom:link href="https://orekondo.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2x4</title>
+      <link>https://orekondo.com/tags/2x4/</link>
+      <pubDate>Sun, 29 Mar 2020 21:47:46 +0900</pubDate>
+      
+      <guid>https://orekondo.com/tags/2x4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>diary</title>
+      <link>https://orekondo.com/tags/diary/</link>
+      <pubDate>Sun, 29 Mar 2020 21:47:46 +0900</pubDate>
+      
+      <guid>https://orekondo.com/tags/diary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DIY</title>
+      <link>https://orekondo.com/tags/diy/</link>
+      <pubDate>Sun, 29 Mar 2020 21:47:46 +0900</pubDate>
+      
+      <guid>https://orekondo.com/tags/diy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>photo</title>
+      <link>https://orekondo.com/tags/photo/</link>
+      <pubDate>Sat, 28 Mar 2020 20:10:04 +0900</pubDate>
+      
+      <guid>https://orekondo.com/tags/photo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AWS</title>
+      <link>https://orekondo.com/tags/aws/</link>
+      <pubDate>Sun, 15 Mar 2020 21:42:59 +0900</pubDate>
+      
+      <guid>https://orekondo.com/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://orekondo.com/tags/hugo/</link>
+      <pubDate>Sat, 07 Mar 2020 00:38:08 +0900</pubDate>
+      
+      <guid>https://orekondo.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>https://orekondo.com/tags/about/</link>
+      <pubDate>Mon, 02 Mar 2020 23:50:16 +0900</pubDate>
+      
+      <guid>https://orekondo.com/tags/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>orekondo</title>
+      <link>https://orekondo.com/tags/orekondo/</link>
+      <pubDate>Mon, 02 Mar 2020 23:50:16 +0900</pubDate>
+      
+      <guid>https://orekondo.com/tags/orekondo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

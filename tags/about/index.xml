@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>about on おれこんどうめも</title>
+    <link>https://orekondo.com/tags/about/</link>
+    <description>Recent content in about on おれこんどうめも</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>© Copyright orekondo</copyright>
+    <lastBuildDate>Mon, 02 Mar 2020 23:50:16 +0900</lastBuildDate>
+    
+	<atom:link href="https://orekondo.com/tags/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>おれこんどう</title>
+      <link>https://orekondo.com/about/</link>
+      <pubDate>Mon, 02 Mar 2020 23:50:16 +0900</pubDate>
+      
+      <guid>https://orekondo.com/about/</guid>
+      <description>東京都昭島市にて生を享ける 神奈川県川崎市在住 目黒区の端っこのシステム開発屋所属 漫画/アニメ/ゲーム/写真/熱帯魚/サバゲー この猫は親が飼っていた猫 orekondoってニャンジャ語で「記録」って意味らしい。なにそれカッコいい  なんか思いついたら続き書くぅ</description>
+    </item>
+    
+  </channel>
+</rss>
