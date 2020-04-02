@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>© Copyright orekondo</copyright>
-    <lastBuildDate>Sun, 29 Mar 2020 21:47:46 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2020 18:30:00 +0900</lastBuildDate>
     
 	<atom:link href="https://orekondo.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>diary</title>
+      <link>https://orekondo.com/tags/diary/</link>
+      <pubDate>Thu, 02 Apr 2020 18:30:00 +0900</pubDate>
+      
+      <guid>https://orekondo.com/tags/diary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>photo</title>
+      <link>https://orekondo.com/tags/photo/</link>
+      <pubDate>Thu, 02 Apr 2020 18:30:00 +0900</pubDate>
+      
+      <guid>https://orekondo.com/tags/photo/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>2x4</title>
@@ -22,29 +40,11 @@
     </item>
     
     <item>
-      <title>diary</title>
-      <link>https://orekondo.com/tags/diary/</link>
-      <pubDate>Sun, 29 Mar 2020 21:47:46 +0900</pubDate>
-      
-      <guid>https://orekondo.com/tags/diary/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>DIY</title>
       <link>https://orekondo.com/tags/diy/</link>
       <pubDate>Sun, 29 Mar 2020 21:47:46 +0900</pubDate>
       
       <guid>https://orekondo.com/tags/diy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>photo</title>
-      <link>https://orekondo.com/tags/photo/</link>
-      <pubDate>Sat, 28 Mar 2020 20:10:04 +0900</pubDate>
-      
-      <guid>https://orekondo.com/tags/photo/</guid>
       <description></description>
     </item>
     
