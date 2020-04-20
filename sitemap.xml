@@ -3,22 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://orekondo.com/tags/aws/</loc>
+    <lastmod>2020-04-19T21:42:59+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://orekondo.com/posts/aws_ec2/</loc>
+    <lastmod>2020-04-19T21:42:59+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://orekondo.com/posts/</loc>
+    <lastmod>2020-04-19T21:42:59+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://orekondo.com/tags/</loc>
+    <lastmod>2020-04-19T21:42:59+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://orekondo.com/tags/airplants/</loc>
     <lastmod>2020-04-07T20:00:00+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://orekondo.com/tags/diary/</loc>
-    <lastmod>2020-04-07T20:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://orekondo.com/posts/</loc>
-    <lastmod>2020-04-07T20:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://orekondo.com/tags/</loc>
     <lastmod>2020-04-07T20:00:00+09:00</lastmod>
   </url>
   
@@ -50,11 +60,6 @@
   <url>
     <loc>https://orekondo.com/posts/diy_2x4_shelf1/</loc>
     <lastmod>2020-03-29T21:47:46+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://orekondo.com/tags/aws/</loc>
-    <lastmod>2020-03-15T21:42:59+09:00</lastmod>
   </url>
   
   <url>

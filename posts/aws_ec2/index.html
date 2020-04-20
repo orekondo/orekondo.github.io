@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>EC2について★★★ - おれこんどうめも</title><link rel="icon" type="image/png" href=icons/myicon.ico /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="EC2について★★★" />
+<meta property="og:description" content="Amazon Elastic Compute Cloud  時間貸の仮想サーバ インスタンスはどこのホストで起動するかわからない ＝再起動するとデータ消える（インスタンスストアに置いていたら） SLA99.99%   ステータスについて    ステータス 状態 課金     Running インスタンスあり・稼働中 あり(*)   Stopped インスタンスあり・停止中 なし   Terminated 破棄されてる なし    *)Amazon Linuxは秒課金、他は時間課金" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://orekondo.com/posts/aws_ec2/" />
+<meta property="article:published_time" content="2020-04-19T21:42:59+09:00" />
+<meta property="article:modified_time" content="2020-04-19T21:42:59+09:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="EC2について★★★"/>
+<meta name="twitter:description" content="Amazon Elastic Compute Cloud  時間貸の仮想サーバ インスタンスはどこのホストで起動するかわからない ＝再起動するとデータ消える（インスタンスストアに置いていたら） SLA99.99%   ステータスについて    ステータス 状態 課金     Running インスタンスあり・稼働中 あり(*)   Stopped インスタンスあり・停止中 なし   Terminated 破棄されてる なし    *)Amazon Linuxは秒課金、他は時間課金"/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="https://orekondo.com/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://orekondo.com/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="https://orekondo.com/css/custom.css" />
+	<link rel="stylesheet" type="text/css" href="https://orekondo.com/css/dark.css" media="(prefers-color-scheme: dark)" />
+	<link rel="stylesheet" type="text/css" href="https://orekondo.com/css/custom-dark.css" media="(prefers-color-scheme: dark)" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+	<script src="https://orekondo.com/js/main.js"></script>
+	<script src="https://orekondo.com/js/abc.js"></script>
+	<script src="https://orekondo.com/js/xyz.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	<h1 class="site-title"><a href="https://orekondo.com/">おれこんどうめも</a></h1>
+	<div class="site-description"><h2>2020/03からGitHub Pages+Hugoで開始</h2><nav class="nav social">
+			<ul class="flat"><a href="https://twitter.com/orekondo" title="Twitter"><i data-feather="twitter"></i></a></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/posts">All posts</a>
+			</li>
+			
+			<li>
+				<a href="/about">About</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			<h1 class="title">EC2について★★★</h1>
+			<div class="meta">Posted at &mdash; Apr 19, 2020</div>
+		</div>
+
+		<div class="markdown">
+			<p><img src="/AWS/PNG_Light/Compute/Amazon-EC2@4x.png" alt="EC2"></p>
+<h3 id="amazon-elastic-compute-cloud">Amazon Elastic Compute Cloud</h3>
+<ul>
+<li>時間貸の仮想サーバ</li>
+<li>インスタンスはどこのホストで起動するかわからない</li>
+<li>＝再起動するとデータ消える（インスタンスストアに置いていたら）</li>
+<li>SLA99.99%</li>
+</ul>
+<hr>
+<h3 id="ステータスについて">ステータスについて</h3>
+<table>
+<thead>
+<tr>
+<th align="left">ステータス</th>
+<th align="left">状態</th>
+<th align="left">課金</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Running</td>
+<td align="left">インスタンスあり・稼働中</td>
+<td align="left">あり(*)</td>
+</tr>
+<tr>
+<td align="left">Stopped</td>
+<td align="left">インスタンスあり・停止中</td>
+<td align="left">なし</td>
+</tr>
+<tr>
+<td align="left">Terminated</td>
+<td align="left">破棄されてる</td>
+<td align="left">なし</td>
+</tr>
+</tbody>
+</table>
+<p>*)Amazon Linuxは秒課金、他は時間課金</p>
+<hr>
+<h3 id="占有とか">占有とか</h3>
+<ul>
+<li>マルチテナンシー<br>
+→ほかのアカウントと同居</li>
+<li>ハードウェア占有インスタンス<br>
+→ホスト占有するけど、どのホストか未定 <br>
+　インスタンス課金<br>
+　インスタンス自動配置</li>
+<li>Dedicated Hosts<br>
+→ホスト指定で占有<br>
+　ホスト課金<br>
+　ソケットとかコアとか可視化<br>
+　ホストとインスタンスのアフィニティ<br>
+　インスタンス自動配置</li>
+</ul>
+<hr>
+<h3 id="ipアドレス">IPアドレス</h3>
+<ul>
+<li>ElasticIP(EIP)<br>
+→再起動してもIPアドレス固定<br>
+　インターネットからのアクセスを想定<br>
+　EIPにインスタンスを割り当ててない、インスタンスがStoppedの場合、課金<br>
+　1つのインスタンスに2つ以上のEIPを設定しても課金</li>
+<li>パブリックIP<br>
+→再起動するとアドレス変わるグローバルIP</li>
+<li>プライベートIP<br>
+→インスタンスつくると絶対ついてくるIP。アドレス指定もできる</li>
+</ul>
+<p>Elastic Network Interface(ENI)<br>
+→仮想NIC。スペックの良いインスタンスはたくさん持てる傾向</p>
+<hr>
+<h3 id="インスタンスタイプ">インスタンスタイプ</h3>
+<p>汎用、コンピューティング最適化、ストレージ最適化、メモリ最適化とかCPU、メモリー、ストレージとかの組み合わせのパターンがたくさんある。世代はできるだけ最新のものを使うのが推奨。<br>
+例）t2.xlage<br>
+t←インスタンスファミリー<br>
+2←インスタンス世代<br>
+xlarge←インスタンスサイズ</p>
+<p>インスタンス購入オプション</p>
+<table>
+<thead>
+<tr>
+<th align="left">オプション</th>
+<th align="left">特徴</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">オンデマンド</td>
+<td align="left">初期費用なし、時間払い</td>
+</tr>
+<tr>
+<td align="left">リザーブ</td>
+<td align="left">1年か3年先払いでお得</td>
+</tr>
+<tr>
+<td align="left">スポット</td>
+<td align="left">時価。ユーザーが指定した値段より高くなったら終了、うまく使えばお得</td>
+</tr>
+<tr>
+<td align="left">ハードウェア占有</td>
+<td align="left">上で書いた</td>
+</tr>
+<tr>
+<td align="left">Dedicated Hosts</td>
+<td align="left">上で書いた</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="他いろいろ">他いろいろ</h3>
+<p>パブリックIPアドレスをもつEC2インスタンスは外部DNSホスト名(ec2-XXX-X-XXX-XX.compute-1.amazonaws.com)が割り当てられる。AWSマネジメントコンソールとかEC2インスタンスのメタデータをクエリして確認できる。</p>
+<p>ユーザーデータとメタデータ<br>
+ユーザーデータ→OS起動スクリプト<br>
+メタデータ→インスタンスのデータ（ホスト名とかMACアドレスとか）<br>
+→取得はどっちもインスタンスからhttp経由で</p>
+<p>AMI(Amazon Machine Image)<br>
+OSのテンプレート（実はERSのスナップショット）</p>
+<p>キーペア<br>
+EC2インスタンスをつくると秘密鍵・公開鍵がつくられる。インスタンスに公開鍵がコピーされるので、秘密鍵でログインできる。</p>
+
+		</div>
+
+		<div class="post-tags">
+			
+				
+					<nav class="nav tags">
+							<ul class="flat">
+								
+								<li><a href="/tags/aws">AWS</a></li>
+								
+							</ul>
+					</nav>
+				
+			
+		</div>
+		</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> © Copyright orekondo |  <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-36689721-5', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<script>feather.replace()</script>
+</body>
+</html>
