@@ -38,6 +38,11 @@
   </url>
   
   <url>
+    <loc>https://orekondo.com/</loc>
+    <lastmod>2020-04-20T20:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://orekondo.com/tags/aws/</loc>
     <lastmod>2020-04-19T21:42:59+09:00</lastmod>
   </url>
@@ -123,8 +128,13 @@
   </url>
   
   <url>
-    <loc>https://orekondo.com/</loc>
-    <lastmod>2020-03-02T23:50:16+09:00</lastmod>
+    <loc>https://orekondo.com/tags/test/</loc>
+    <lastmod>2020-01-01T00:04:17+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://orekondo.com/posts/test2/</loc>
+    <lastmod>2020-01-01T00:04:17+09:00</lastmod>
   </url>
   
 </urlset>

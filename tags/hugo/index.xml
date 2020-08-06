@@ -27,5 +27,17 @@ DBとかいらないってことはWebサーバだけうごけばどこでもい
  Markdown記法で書く 記号で文章に装飾できるやつ</description>
     </item>
     
+    <item>
+      <title>動作確認用テストページ←☆内容無い記事☆</title>
+      <link>https://orekondo.com/posts/test2/</link>
+      <pubDate>Wed, 01 Jan 2020 00:04:17 +0900</pubDate>
+      
+      <guid>https://orekondo.com/posts/test2/</guid>
+      <description>ようつべ差し込んでみる
+よふかしのうたおもすれぇ、、   ツイッター差し込んでみる
+ぬこがとるぞう 久々にカメラ引っ張り出してズーラシア行ってきた。楽しかった。 pic.twitter.com/qV1kEDpn4v
+&amp;mdash; orekondo (@orekondo) February 11, 2020  画像挿入してみる</description>
+    </item>
+    
   </channel>
 </rss>

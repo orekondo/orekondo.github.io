@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>© Copyright orekondo</copyright>
-    <lastBuildDate>Mon, 02 Mar 2020 23:50:16 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2020 20:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://orekondo.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -125,6 +125,18 @@ DBとかいらないってことはWebサーバだけうごけばどこでもい
       
       <guid>https://orekondo.com/about/</guid>
       <description>東京都昭島市にて生を享ける 神奈川県川崎市在住 目黒区の端っこのシステム開発屋所属 漫画/アニメ/ゲーム/写真/熱帯魚/サバゲー この猫は親が飼っていた猫 orekondoってニャンジャ語で「記録」って意味らしい。なにそれカッコいい  なんか思いついたら続き書くぅ</description>
+    </item>
+    
+    <item>
+      <title>動作確認用テストページ←☆内容無い記事☆</title>
+      <link>https://orekondo.com/posts/test2/</link>
+      <pubDate>Wed, 01 Jan 2020 00:04:17 +0900</pubDate>
+      
+      <guid>https://orekondo.com/posts/test2/</guid>
+      <description>ようつべ差し込んでみる
+よふかしのうたおもすれぇ、、   ツイッター差し込んでみる
+ぬこがとるぞう 久々にカメラ引っ張り出してズーラシア行ってきた。楽しかった。 pic.twitter.com/qV1kEDpn4v
+&amp;mdash; orekondo (@orekondo) February 11, 2020  画像挿入してみる</description>
     </item>
     
   </channel>

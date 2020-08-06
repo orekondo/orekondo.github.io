@@ -120,5 +120,14 @@
       <description></description>
     </item>
     
+    <item>
+      <title>test</title>
+      <link>https://orekondo.com/tags/test/</link>
+      <pubDate>Wed, 01 Jan 2020 00:04:17 +0900</pubDate>
+      
+      <guid>https://orekondo.com/tags/test/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
