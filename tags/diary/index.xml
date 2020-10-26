@@ -7,10 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>© Copyright orekondo</copyright>
-    <lastBuildDate>Mon, 20 Apr 2020 20:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2020 20:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://orekondo.com/tags/diary/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>エアガンのコネクタをXT30Uにした話</title>
+      <link>https://orekondo.com/posts/airsoft_tamiya2xt30u/</link>
+      <pubDate>Sun, 25 Oct 2020 20:00:00 +0900</pubDate>
+      
+      <guid>https://orekondo.com/posts/airsoft_tamiya2xt30u/</guid>
+      <description>うちのチームでエアガンのコネクタを交換するブームが来てたので、自分もちょっと乗ってみました。
+実はタミヤコネクタは電機流量が少なくて、交換すると効率が上がってサイクル上がったりするらしいのですよ。
+今回はARP9（内部メンテ済）+11.1Vリポバッテリーの組み合わせでやってみたのです。  交換前 電圧は12.4Vで計測
+交換前はサイクル24.7発、85.21m/s まぁ、交換前からそこそこいい感じなので、ここからコネクタ変えただけでどこまで伸びるのか楽しみという感じ
+ 交換後 交換してみた。一部隠れてないしコネクタが焦げておる。</description>
+    </item>
     
     <item>
       <title>CYMAのAK47にEG1000Sモーターつっこんだメモ</title>

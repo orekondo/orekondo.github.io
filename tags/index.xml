@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>© Copyright orekondo</copyright>
-    <lastBuildDate>Mon, 20 Apr 2020 20:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2020 20:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://orekondo.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,9 +15,36 @@
     <item>
       <title>airsoft</title>
       <link>https://orekondo.com/tags/airsoft/</link>
-      <pubDate>Mon, 20 Apr 2020 20:00:00 +0900</pubDate>
+      <pubDate>Sun, 25 Oct 2020 20:00:00 +0900</pubDate>
       
       <guid>https://orekondo.com/tags/airsoft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>diary</title>
+      <link>https://orekondo.com/tags/diary/</link>
+      <pubDate>Sun, 25 Oct 2020 20:00:00 +0900</pubDate>
+      
+      <guid>https://orekondo.com/tags/diary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TAMIYA</title>
+      <link>https://orekondo.com/tags/tamiya/</link>
+      <pubDate>Sun, 25 Oct 2020 20:00:00 +0900</pubDate>
+      
+      <guid>https://orekondo.com/tags/tamiya/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>XT30U</title>
+      <link>https://orekondo.com/tags/xt30u/</link>
+      <pubDate>Sun, 25 Oct 2020 20:00:00 +0900</pubDate>
+      
+      <guid>https://orekondo.com/tags/xt30u/</guid>
       <description></description>
     </item>
     
@@ -36,15 +63,6 @@
       <pubDate>Mon, 20 Apr 2020 20:00:00 +0900</pubDate>
       
       <guid>https://orekondo.com/tags/custom/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>diary</title>
-      <link>https://orekondo.com/tags/diary/</link>
-      <pubDate>Mon, 20 Apr 2020 20:00:00 +0900</pubDate>
-      
-      <guid>https://orekondo.com/tags/diary/</guid>
       <description></description>
     </item>
     

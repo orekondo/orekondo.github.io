@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>airsoft on おれこんどうめも</title>
-    <link>https://orekondo.com/tags/airsoft/</link>
-    <description>Recent content in airsoft on おれこんどうめも</description>
+    <title>XT30U on おれこんどうめも</title>
+    <link>https://orekondo.com/tags/xt30u/</link>
+    <description>Recent content in XT30U on おれこんどうめも</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>© Copyright orekondo</copyright>
     <lastBuildDate>Sun, 25 Oct 2020 20:00:00 +0900</lastBuildDate>
     
-	<atom:link href="https://orekondo.com/tags/airsoft/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://orekondo.com/tags/xt30u/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -23,19 +23,6 @@
 今回はARP9（内部メンテ済）+11.1Vリポバッテリーの組み合わせでやってみたのです。  交換前 電圧は12.4Vで計測
 交換前はサイクル24.7発、85.21m/s まぁ、交換前からそこそこいい感じなので、ここからコネクタ変えただけでどこまで伸びるのか楽しみという感じ
  交換後 交換してみた。一部隠れてないしコネクタが焦げておる。</description>
-    </item>
-    
-    <item>
-      <title>CYMAのAK47にEG1000Sモーターつっこんだメモ</title>
-      <link>https://orekondo.com/posts/airsoft_eg1000s_ak47/</link>
-      <pubDate>Mon, 20 Apr 2020 20:00:00 +0900</pubDate>
-      
-      <guid>https://orekondo.com/posts/airsoft_eg1000s_ak47/</guid>
-      <description>CYMAのAK47ことCM.028にマルイのEG1000Sつっこんで、少しでももっさり解消したりすればいいなっておもって、、
-メカボックス開けなくていいし、30分くらいでできるのでお気楽改造  グリップの部分を外す グリップの下のねじを外すと中身がみえます、、
-↑こんな感じ
-マルイのスタンダードAK47はモーターにケーブルはんだ付けって何かでよんだけど、CYMAは金具付いてるから交換かんたん
- モーター取り出し 端子を取り外して、、</description>
     </item>
     
   </channel>
