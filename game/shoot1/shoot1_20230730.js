@@ -127,6 +127,7 @@ function mainloop() {
             fText("\u30B9\u30BF\u30FC\u30C8", maxx / 2, maxy / 2 + 300, 40, 'red');
             if (tapC == 1) {
                 scene = 3;
+                playBgm(0);
             }
         }
         else {
